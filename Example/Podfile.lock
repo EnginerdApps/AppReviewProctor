@@ -1,0 +1,16 @@
+PODS:
+  - AppReviewProctor (0.1.0)
+
+DEPENDENCIES:
+  - AppReviewProctor (from `../`)
+
+EXTERNAL SOURCES:
+  AppReviewProctor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AppReviewProctor: e1905e8106c319ebbd415b688156e2241324dbe2
+
+PODFILE CHECKSUM: a1d6677cea9d5cbc26f36b1be22bda05509cf8a1
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module AppReviewProctor {
+  umbrella header "AppReviewProctor-umbrella.h"
+
+  export *
+  module * { export * }
+}

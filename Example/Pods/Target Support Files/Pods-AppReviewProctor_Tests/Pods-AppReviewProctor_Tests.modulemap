@@ -1,0 +1,6 @@
+framework module Pods_AppReviewProctor_Tests {
+  umbrella header "Pods-AppReviewProctor_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

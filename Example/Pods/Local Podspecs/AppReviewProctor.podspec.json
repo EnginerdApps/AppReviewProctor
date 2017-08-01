@@ -1,0 +1,22 @@
+{
+  "name": "AppReviewProctor",
+  "version": "0.1.0",
+  "summary": "A short description of AppReviewProctor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Colin Van Dyke/AppReviewProctor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Colin Van Dyke": "colin@enginerdapps.com"
+  },
+  "source": {
+    "git": "https://github.com/Colin Van Dyke/AppReviewProctor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AppReviewProctor/Classes/**/*"
+}
