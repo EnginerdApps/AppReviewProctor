@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		25C1F6CF7DCA3C7173E1DA0D7243C0F1 /* Pods-AppReviewProctor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 749C58EBFB3B8020D89FC7ACFF737E90 /* Pods-AppReviewProctor_Example-dummy.m */; };
+		303FFF02AC4EB9C04B66068AABB6152C /* AppReviewProctor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F645E46E3654237DA31B8EB5FC0507A /* AppReviewProctor-dummy.m */; };
 		32AC1E82A58C7B29AE2BBC1D19F6B86B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		43F544014AAFD5A0E16E042EAAB3C072 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8149CBB6B047FFEC8EF3C4936ABE6C7 /* ReplaceMe.swift */; };
+		3378ECC092FA2EE6307E4D758A10E1EF /* AppReviewProctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2DE88CC9A35CE3061541C34CB26A7 /* AppReviewProctor.swift */; };
 		4997DD4F19DDB4F9543110368025925E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		58B234DE03543E1F4EE4F5A6FEF6266C /* AppReviewProctor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4698B462E14BAD2BA94DEF45472D1AF2 /* AppReviewProctor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		664B1B33375BA95454E50BA524B14D84 /* Pods-AppReviewProctor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E94811B29272E45CFE28E8A4374EA337 /* Pods-AppReviewProctor_Tests-dummy.m */; };
 		7C4592F545093B2880BF28CFC9C5F619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9A4C790ECF75BB91C3990ADFD0086559 /* Pods-AppReviewProctor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ECFD93F40EC9F6BCEB4E231D8F61865 /* Pods-AppReviewProctor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0BAB750B0E0458DE7BF479BB4E1E649 /* Pods-AppReviewProctor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 740C9ED0A183902605DE76D47A40C29C /* Pods-AppReviewProctor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECFA641B5C748853ADB2EBE4A3098D38 /* AppReviewProctor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F645E46E3654237DA31B8EB5FC0507A /* AppReviewProctor-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 		2F40D9BF1E1C6855D4122FB6E95B1BC7 /* Pods-AppReviewProctor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppReviewProctor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		430E94581869B988C3B6A1D320514CFB /* Pods-AppReviewProctor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppReviewProctor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4698B462E14BAD2BA94DEF45472D1AF2 /* AppReviewProctor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppReviewProctor-umbrella.h"; sourceTree = "<group>"; };
+		49D2DE88CC9A35CE3061541C34CB26A7 /* AppReviewProctor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppReviewProctor.swift; sourceTree = "<group>"; };
 		5268E2BAFD7DC3BBA92E6C783F1F0752 /* AppReviewProctor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppReviewProctor-prefix.pch"; sourceTree = "<group>"; };
 		5C69E9416C3BFD0AA05B692EEEF019E9 /* Pods_AppReviewProctor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppReviewProctor_Tests.framework; path = "Pods-AppReviewProctor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,7 +56,6 @@
 		C832B0CC6F974D4DA283416FBF2B4CA9 /* AppReviewProctor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppReviewProctor.framework; path = AppReviewProctor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2CF7205A60DB930CE05567C6EE4B9E /* Pods-AppReviewProctor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AppReviewProctor_Example.modulemap"; sourceTree = "<group>"; };
 		D31A148A3CDE9C8D13A8E7E19E43EE25 /* Pods_AppReviewProctor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppReviewProctor_Example.framework; path = "Pods-AppReviewProctor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8149CBB6B047FFEC8EF3C4936ABE6C7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		DEFDD65D361279ADA9C2B230A870E9D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4C7C7F85B7D1A9EE44A424BAAA89557 /* AppReviewProctor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AppReviewProctor.modulemap; sourceTree = "<group>"; };
 		E94811B29272E45CFE28E8A4374EA337 /* Pods-AppReviewProctor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppReviewProctor_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 		6FF77F031D887489094EC73A40C771B7 /* AppReviewProctor */ = {
 			isa = PBXGroup;
 			children = (
-				9803F8F650A14587C8D0CAF8C0810C6F /* Classes */,
+				F429DBA143284BA1D187C5D3DBA033D7 /* Classes */,
 			);
 			name = AppReviewProctor;
 			path = AppReviewProctor;
@@ -199,15 +199,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		9803F8F650A14587C8D0CAF8C0810C6F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D8149CBB6B047FFEC8EF3C4936ABE6C7 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +213,15 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F429DBA143284BA1D187C5D3DBA033D7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				49D2DE88CC9A35CE3061541C34CB26A7 /* AppReviewProctor.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7AB7D948211227EB2AE111D1915F299 /* Build configuration list for PBXNativeTarget "AppReviewProctor" */;
 			buildPhases = (
-				391867069BCB55EFB90DDDD40DC1BDDA /* Sources */,
+				FFC678B4B1BE688DDB1E28C809BF4A3A /* Sources */,
 				0AA0CDCAF1F2F3D875C0E24C8471D2B0 /* Frameworks */,
 				CC35AEC3C6312C40188DB0590BECA392 /* Headers */,
 			);
@@ -343,20 +343,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		391867069BCB55EFB90DDDD40DC1BDDA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ECFA641B5C748853ADB2EBE4A3098D38 /* AppReviewProctor-dummy.m in Sources */,
-				43F544014AAFD5A0E16E042EAAB3C072 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EE09FDB4CB1E9F3DDA459460651AFE55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				664B1B33375BA95454E50BA524B14D84 /* Pods-AppReviewProctor_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC678B4B1BE688DDB1E28C809BF4A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303FFF02AC4EB9C04B66068AABB6152C /* AppReviewProctor-dummy.m in Sources */,
+				3378ECC092FA2EE6307E4D758A10E1EF /* AppReviewProctor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

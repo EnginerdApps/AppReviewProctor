@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AppReviewProctor'
   s.version          = '0.1.0'
-s.summary          = 'Provides bookkeeping support to decide when to ask the user whether to rate an app, in addition to the app store restrictions built in to SKStoreReviewController.'
+s.summary          = 'Provides bookkeeping support for SKStoreReviewController to decide when to ask the user whether to rate an app.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
