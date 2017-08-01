@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AppReviewProctor_Example' do
+  pod 'AppReviewProctor', :path => '../'
+
+  target 'AppReviewProctor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
